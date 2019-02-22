@@ -1,0 +1,62 @@
+/* Background */
+  .phb{ background-image: url('https://i.imgur.com/KN1O92T.png') }
+  .phb{ background-size: cover }
+
+/* Notes */
+  .phb section blockquote {background-color: #f6e5d4}
+  .phb hr + section blockquote tr:nth-child(odd) td {background-color: transparent;}
+
+
+/* A4, less padding */
+.phb { height:297mm; width:210mm; margin-bottom:5px; padding-bottom: 30px; padding-left: 30px; padding-top: 30px; padding-right: 30px }
+
+/*  */
+.phb hr + blockquote {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #f9f9f9;
+}
+
+.phb hr + blockquote hr {
+    height: 6px;
+    margin: 2px 0;
+    background-size: 100% 110%;
+}
+
+.phb .descriptive {
+    background-color: #f9f9f9;
+}
+
+.phb hr + table {
+    padding-top: 0px;
+}
+
+.phb p {
+    padding-bottom: 0px;
+}
+
+.phb hr + ul {
+    margin-bottom: 0px;
+}
+
+/* Tables */
+table tr:nth-child(odd) td {background-color: #cccccc}
+
+.phb table thead th {
+    padding-bottom: 0em;
+}
+    
+table tr:nth-child(2n+1) td {
+    background-color: #fff;
+}
+
+.phb table tbody tr:nth-child(2n+1) {
+    background-color: #fff;
+}
+
+.phb:nth-child(1):after{ 
+    background-image : url('');
+}
